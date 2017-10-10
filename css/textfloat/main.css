@@ -1,0 +1,40 @@
+*{
+	margin: 0;padding: 0;
+}
+html {
+	font-family: "微软雅黑"!important;font-size: 20px;
+	overflow:hidden;
+}
+body {
+	overflow:hidden;
+}
+p{
+	width: 80%;margin: 100px auto 30px;line-height: 1.5;
+}
+button{
+	width: 150px;
+	height: 50px;
+	background: orange;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	border-radius: 10px;
+	margin: 0 auto;
+	display: block;
+	font-size: 20px;
+	font-family: "微软雅黑";
+}
+
+#map
+{
+	background:url(../image/u0.jpg) no-repeat;
+	z-index:-1000;
+	opacity:0.3;
+	width:1000px;
+	height:830px;
+	position:absolute;
+	background-size:100% 100%;
+}
+span:hover{
+	cursor: pointer;
+}
